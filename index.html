@@ -1,5 +1,6 @@
 <!-- juqery で取っていくもの -->
-<!--  -->
+<!-- 入力欄のval -->
+<!-- jsで検索ボックス -->
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -7,12 +8,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/e3ae05b8e6.js"></script>
     <title>タスク管理</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="title">タスク管理です!</h1>
+    </header>
     <main class="main">
+        <form class="form" action="">
+            <input class="input-contents js-get-val" type="text" placeholder="内容を書いてみて！">
+            <button class="btn js-post-todo">TODOを追加</button>
+        </form>
+
+        <div class="search">
+            <li class="fa fa-search search-icon "></li>
+            <input class="input-search js-search" type="text" placeholder="検索したいワードを入力して!">
+        </div>
 
     </main>
 
