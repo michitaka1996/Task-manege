@@ -27,6 +27,10 @@ main{
     font-size: 17px;
     border: none;
 }
+.error{
+    display: none;
+    color: red;
+}
 .btn{
     background: #444;
     color: white;
@@ -49,6 +53,7 @@ main{
     box-sizing: border-box;
 
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* アイコン */
 .search-icon{
@@ -63,4 +68,53 @@ main{
 }
 .input-search:focus{
   outline: none;
+}
+.list-item{
+    background: white;
+    border-radius: 8px;
+    height: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.editText{
+    display: none;
+    width: 70%;
+    margin-left: 15px; 
+    font-size: 17px;
+    border: none;
+}
+.fa-square-o{
+    margin-right: 7px;
+    margin-left: 20px; 
+}
+.fa-square-o:hover{
+    cursor: pointer;
+}
+.fa-trash:hover{
+    cursor: pointer;
+}
+.fa-check-square-o:hover{
+    cursor: pointer;
+}
+.js-todo_list-text{
+    /* display: none; */
+    width: 70%;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*========================================
+doneした場合
+========================================*/
+.js-off_list{
+     background:white;
+}
+.js-done_list{
+    background: gray;
+}
+.fa-check-square-o{
+    margin-right: 7px;
+    margin-left: 20px
 }
