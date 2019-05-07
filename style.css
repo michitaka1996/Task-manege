@@ -26,6 +26,7 @@ main{
     /* border: 2px solid #339999; */
     font-size: 17px;
     border: none;
+    outline: none;
 }
 .error{
     display: none;
@@ -39,6 +40,7 @@ main{
     height: 30px;
     margin-top: 20px;
     float: right;
+    outline: none;
 }
 .search{
     width: 100%;
@@ -76,10 +78,16 @@ main{
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    position: relative;
+}
+.list-item:hover{
+    transform: scale(1.03);
+    transition: .3s transform;
+}
+.form-edit{
 }
 .editText{
     display: none;
-    width: 70%;
     margin-left: 15px; 
     font-size: 17px;
     border: none;
@@ -91,6 +99,12 @@ main{
 .fa-square-o:hover{
     cursor: pointer;
 }
+.fa-trash{
+    font-family: FontAwesome;
+    border: none; 
+    outline: none;
+    float: right;
+}
 .fa-trash:hover{
     cursor: pointer;
 }
@@ -99,7 +113,7 @@ main{
 }
 .js-todo_list-text{
     /* display: none; */
-    width: 70%;
+    /* width: 70%; */
     margin-left: 15px;
     font-size: 17px;
     font-weight: 400;
@@ -118,3 +132,4 @@ doneした場合
     margin-right: 7px;
     margin-left: 20px
 }
+

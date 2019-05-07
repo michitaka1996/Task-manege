@@ -1,3 +1,11 @@
+<!-- 画面遷移せずにDBにinsert delete　update -->
+
+<?php
+require('ajax.php');
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -14,10 +22,11 @@
         <h1 class="title">タスク管理</h1>
     </header>
     <main class="main">
-        <form class="form" >
-            <input class="input-contents js-get-val" value="" type="text" placeholder="内容を書いてみて！">
+        <form class="form js-ajax-post">
+            <input class="input-contents js-get-val" name="task" value="" type="text" placeholder="内容を書いてみて" autocomplete="off">
             <span class="error js-toggle-error">入力内容が空です</span>
-            <button class="btn js-post-todo">TODOを追加</button>
+            <!-- inputタグでsubmitする -->
+            <input type="submit" class="btn js-post-todo" value="TODOを追加">
         </form>
 
         <!-- 検索 -->
@@ -28,24 +37,27 @@
 
         <!-- タスク -->
         <ul class="list js-todo">
-            <!--サンプルとして　一つのフォームひとまとまりのタスク-->
+
+            <?php taskAdd(); ?>
+
             <li class="list-item js-todo_list" data-text="サンプルTODOタスク">
-                <!-- チェックボックスのアイコン 実際のチェックボックスではないことに注意 -->
                 <i class="fa fa-square-o icon-check js-click-done"  aria-hidden="true"></i>
                 <span class="js-todo_list-text">サンプルTODOタスク</span>
-                <input type="text" class="editText js-todo_list-Form" value="サンプルTODOタスク">
-                <!--ゴミ箱アイコン -->
-                <i class="fa fa-trash icon-trash js-click-trash" aria-hidden="true"></i>
+                <form method="post" class="form-edit js-ajax">
+                    <input type="text" class="editText js-todo_list-Form" value="サンプルTODOタスク">
+                    <button class="fa fa-trash icon-trash js-click-trash" type="submit" name="delete" value="削除!"></button>
+                </form>
             </li>
 
             <li class="list-item js-todo_list" data-text="サンプルDONEタスク">
-                <!-- チェックボックスのアイコン 実際のチェックボックスではないことに注意 -->
                 <i class="fa fa-square-o icon-check js-click-done"  aria-hidden="true"></i>
                 <span class="js-todo_list-text">サンプルDONEタスク</span>
-                <input type="text" class="editText js-todo_list-Form" value="サンプルDONEタスク">
-                <!--ゴミ箱アイコン -->
-                <i class="fa fa-trash icon-trash js-click-trash" aria-hidden="true"></i>
+                <form method="post" class="js-ajax">
+                     <input type="text" class="editText js-todo_list-Form" value="サンプルDONEタスク">
+                    <button class="fa fa-trash icon-trash js-click-trash" type="submit" name="delete" value="削除!"></button>
+                </form>
             </li>
+
         </ul>
 
     </main>

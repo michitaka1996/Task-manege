@@ -1,0 +1,50 @@
+insert
+
+
+[02-May-2019 08:10:58 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 80
+            [comment] => nnukmyu
+            [create_date] => 2019-05-02 08:01:19
+            [update_date] => 2019-05-02 17:01:19
+        )
+
+    [1] => Array
+        (
+            [user_id] => 81
+            [comment] => 4e6k4k4
+            [create_date] => 2019-05-02 08:09:41
+            [update_date] => 2019-05-02 17:09:41
+        )
+
+    [2] => Array
+        (
+            [user_id] => 82
+            [comment] => kuykt
+            [create_date] => 2019-05-02 08:09:43
+            [update_date] => 2019-05-02 17:09:43
+        )
+
+    [3] => Array
+        (
+            [user_id] => 83
+            [comment] => bdzbz
+            [create_date] => 2019-05-02 08:09:46
+            [update_date] => 2019-05-02 17:09:46
+        )
+
+)
+
+
+
+
+[02-May-2019 08:12:49 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 80
+)
+
+[02-May-2019 08:12:49 UTC] ユーザーID:80
+[02-May-2019 08:12:49 UTC] DBから削除に成功しました
+[02-May-2019 08:12:49 UTC] DBの処理に成功しました

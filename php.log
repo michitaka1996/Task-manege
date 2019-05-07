@@ -1,0 +1,3420 @@
+[02-May-2019 13:35:54 UTC] DBからタスク情報を取得します
+[02-May-2019 13:35:54 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:35:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:35:54 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:35:54 UTC] execute:1
+[02-May-2019 13:35:54 UTC] クエリ成功
+[02-May-2019 13:35:54 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 132
+            [comment] => gergqe
+            [create_date] => 2019-05-02 12:48:24
+            [update_date] => 2019-05-02 21:48:24
+        )
+
+    [1] => Array
+        (
+            [user_id] => 133
+            [comment] => fwfqf
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [2] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:35:54 UTC] postできてます
+[02-May-2019 13:35:54 UTC] post内容Array
+(
+    [edit] => uuuuu
+)
+
+[02-May-2019 13:35:54 UTC] タスクの編集があります
+[02-May-2019 13:35:54 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:35:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:35:54 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:35:54 UTC] execute:1
+[02-May-2019 13:35:54 UTC] クエリ成功
+[02-May-2019 13:35:54 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 132
+)
+
+[02-May-2019 13:35:54 UTC] ユーザーID:132
+[02-May-2019 13:35:54 UTC] PHP Notice:  Undefined index: comment in /Applications/MAMP/htdocs/js_advance/todo_task/ajax.php on line 134
+[02-May-2019 13:35:54 UTC] ここで使うsql:UPDATE users SET comment = :comment WHERE user_id = :id
+[02-May-2019 13:35:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => UPDATE users SET comment = :comment WHERE user_id = :id
+)
+
+[02-May-2019 13:35:54 UTC] 流し込みデータ:Array
+(
+    [:comment] => 
+    [:id] => 132
+)
+
+[02-May-2019 13:35:54 UTC] execute:1
+[02-May-2019 13:35:54 UTC] クエリ成功
+[02-May-2019 13:35:54 UTC] タスクの編集が完了しました
+[02-May-2019 13:35:54 UTC] DBの処理に成功しました
+[02-May-2019 13:37:33 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:33 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:33 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:33 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:33 UTC] execute:1
+[02-May-2019 13:37:33 UTC] クエリ成功
+[02-May-2019 13:37:33 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 132
+            [comment] => 
+            [create_date] => 2019-05-02 12:48:24
+            [update_date] => 2019-05-02 21:48:24
+        )
+
+    [1] => Array
+        (
+            [user_id] => 133
+            [comment] => fwfqf
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [2] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:33 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 132
+            [comment] => 
+            [create_date] => 2019-05-02 12:48:24
+            [update_date] => 2019-05-02 21:48:24
+        )
+
+    [1] => Array
+        (
+            [user_id] => 133
+            [comment] => fwfqf
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [2] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:36 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:36 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:36 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:36 UTC] execute:1
+[02-May-2019 13:37:36 UTC] クエリ成功
+[02-May-2019 13:37:36 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 132
+            [comment] => 
+            [create_date] => 2019-05-02 12:48:24
+            [update_date] => 2019-05-02 21:48:24
+        )
+
+    [1] => Array
+        (
+            [user_id] => 133
+            [comment] => fwfqf
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [2] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:36 UTC] postできてます
+[02-May-2019 13:37:36 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:37:36 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:37:36 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:37:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:37:36 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:36 UTC] execute:1
+[02-May-2019 13:37:36 UTC] クエリ成功
+[02-May-2019 13:37:36 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 132
+)
+
+[02-May-2019 13:37:36 UTC] ユーザーID:132
+[02-May-2019 13:37:36 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:37:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:37:36 UTC] 流し込みデータ:Array
+(
+    [:id] => 132
+)
+
+[02-May-2019 13:37:36 UTC] execute:1
+[02-May-2019 13:37:36 UTC] クエリ成功
+[02-May-2019 13:37:36 UTC] DBから削除に成功しました
+[02-May-2019 13:37:36 UTC] DBの処理に成功しました
+[02-May-2019 13:37:41 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:41 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:41 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:41 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:41 UTC] execute:1
+[02-May-2019 13:37:41 UTC] クエリ成功
+[02-May-2019 13:37:41 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => fwfqf
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:41 UTC] postできてます
+[02-May-2019 13:37:41 UTC] post内容Array
+(
+    [edit] => ううう
+)
+
+[02-May-2019 13:37:41 UTC] タスクの編集があります
+[02-May-2019 13:37:41 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:37:41 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:37:41 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:41 UTC] execute:1
+[02-May-2019 13:37:41 UTC] クエリ成功
+[02-May-2019 13:37:41 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 133
+)
+
+[02-May-2019 13:37:41 UTC] ユーザーID:133
+[02-May-2019 13:37:41 UTC] ここで使うsql:UPDATE users SET comment = :comment WHERE user_id = :id
+[02-May-2019 13:37:41 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => UPDATE users SET comment = :comment WHERE user_id = :id
+)
+
+[02-May-2019 13:37:41 UTC] 流し込みデータ:Array
+(
+    [:comment] => ううう
+    [:id] => 133
+)
+
+[02-May-2019 13:37:41 UTC] execute:1
+[02-May-2019 13:37:41 UTC] クエリ成功
+[02-May-2019 13:37:41 UTC] タスクの編集が完了しました
+[02-May-2019 13:37:41 UTC] DBの処理に成功しました
+[02-May-2019 13:37:43 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:43 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:43 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:43 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:43 UTC] execute:1
+[02-May-2019 13:37:43 UTC] クエリ成功
+[02-May-2019 13:37:43 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:43 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:48 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:48 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:48 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:48 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:48 UTC] execute:1
+[02-May-2019 13:37:48 UTC] クエリ成功
+[02-May-2019 13:37:48 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:48 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:50 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:50 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:50 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:50 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:50 UTC] execute:1
+[02-May-2019 13:37:50 UTC] クエリ成功
+[02-May-2019 13:37:50 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+)
+
+[02-May-2019 13:37:50 UTC] postできてます
+[02-May-2019 13:37:50 UTC] post内容Array
+(
+    [task] => ghくぇえq
+)
+
+[02-May-2019 13:37:50 UTC] タスクの送信があります
+[02-May-2019 13:37:50 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:37:50 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:37:50 UTC] 流し込みデータ:Array
+(
+    [:comment] => ghくぇえq
+    [:create_date] => 2019-05-02 13:37:50
+)
+
+[02-May-2019 13:37:50 UTC] execute:1
+[02-May-2019 13:37:50 UTC] クエリ成功
+[02-May-2019 13:37:50 UTC] DBの処理に成功しました
+[02-May-2019 13:37:51 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:51 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:51 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:51 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:51 UTC] execute:1
+[02-May-2019 13:37:51 UTC] クエリ成功
+[02-May-2019 13:37:51 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+)
+
+[02-May-2019 13:37:51 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+)
+
+[02-May-2019 13:37:55 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:55 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:55 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:55 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:55 UTC] execute:1
+[02-May-2019 13:37:55 UTC] クエリ成功
+[02-May-2019 13:37:55 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+)
+
+[02-May-2019 13:37:55 UTC] postできてます
+[02-May-2019 13:37:55 UTC] post内容Array
+(
+    [task] => げrげq
+)
+
+[02-May-2019 13:37:55 UTC] タスクの送信があります
+[02-May-2019 13:37:55 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:37:55 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:37:55 UTC] 流し込みデータ:Array
+(
+    [:comment] => げrげq
+    [:create_date] => 2019-05-02 13:37:55
+)
+
+[02-May-2019 13:37:55 UTC] execute:1
+[02-May-2019 13:37:55 UTC] クエリ成功
+[02-May-2019 13:37:55 UTC] DBの処理に成功しました
+[02-May-2019 13:37:56 UTC] DBからタスク情報を取得します
+[02-May-2019 13:37:56 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:37:56 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:37:56 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:37:56 UTC] execute:1
+[02-May-2019 13:37:56 UTC] クエリ成功
+[02-May-2019 13:37:56 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+    [3] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:37:56 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+    [3] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:38:01 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:01 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:01 UTC] execute:1
+[02-May-2019 13:38:01 UTC] クエリ成功
+[02-May-2019 13:38:01 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 133
+            [comment] => ううう
+            [create_date] => 2019-05-02 13:16:53
+            [update_date] => 2019-05-02 22:16:53
+        )
+
+    [1] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [2] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+    [3] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:38:01 UTC] postできてます
+[02-May-2019 13:38:01 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:38:01 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:38:01 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:38:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:38:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:01 UTC] execute:1
+[02-May-2019 13:38:01 UTC] クエリ成功
+[02-May-2019 13:38:01 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 133
+)
+
+[02-May-2019 13:38:01 UTC] ユーザーID:133
+[02-May-2019 13:38:01 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:38:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:38:01 UTC] 流し込みデータ:Array
+(
+    [:id] => 133
+)
+
+[02-May-2019 13:38:01 UTC] execute:1
+[02-May-2019 13:38:01 UTC] クエリ成功
+[02-May-2019 13:38:01 UTC] DBから削除に成功しました
+[02-May-2019 13:38:01 UTC] DBの処理に成功しました
+[02-May-2019 13:38:02 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:02 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:02 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:02 UTC] execute:1
+[02-May-2019 13:38:02 UTC] クエリ成功
+[02-May-2019 13:38:02 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 134
+            [comment] => gergeqg
+            [create_date] => 2019-05-02 13:16:55
+            [update_date] => 2019-05-02 22:16:55
+        )
+
+    [1] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+    [2] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:38:02 UTC] postできてます
+[02-May-2019 13:38:02 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:38:02 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:38:02 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:38:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:38:02 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:02 UTC] execute:1
+[02-May-2019 13:38:02 UTC] クエリ成功
+[02-May-2019 13:38:02 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 134
+)
+
+[02-May-2019 13:38:02 UTC] ユーザーID:134
+[02-May-2019 13:38:02 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:38:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:38:02 UTC] 流し込みデータ:Array
+(
+    [:id] => 134
+)
+
+[02-May-2019 13:38:02 UTC] execute:1
+[02-May-2019 13:38:02 UTC] クエリ成功
+[02-May-2019 13:38:02 UTC] DBから削除に成功しました
+[02-May-2019 13:38:02 UTC] DBの処理に成功しました
+[02-May-2019 13:38:03 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:03 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:03 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:03 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:03 UTC] execute:1
+[02-May-2019 13:38:03 UTC] クエリ成功
+[02-May-2019 13:38:03 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 135
+            [comment] => ghくぇえq
+            [create_date] => 2019-05-02 13:37:50
+            [update_date] => 2019-05-02 22:37:50
+        )
+
+    [1] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:38:03 UTC] postできてます
+[02-May-2019 13:38:03 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:38:03 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:38:03 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:38:03 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:38:03 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:03 UTC] execute:1
+[02-May-2019 13:38:03 UTC] クエリ成功
+[02-May-2019 13:38:03 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 135
+)
+
+[02-May-2019 13:38:03 UTC] ユーザーID:135
+[02-May-2019 13:38:03 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:38:03 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:38:03 UTC] 流し込みデータ:Array
+(
+    [:id] => 135
+)
+
+[02-May-2019 13:38:03 UTC] execute:1
+[02-May-2019 13:38:03 UTC] クエリ成功
+[02-May-2019 13:38:03 UTC] DBから削除に成功しました
+[02-May-2019 13:38:03 UTC] DBの処理に成功しました
+[02-May-2019 13:38:05 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:05 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:05 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:05 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:05 UTC] execute:1
+[02-May-2019 13:38:05 UTC] クエリ成功
+[02-May-2019 13:38:05 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 136
+            [comment] => げrげq
+            [create_date] => 2019-05-02 13:37:55
+            [update_date] => 2019-05-02 22:37:55
+        )
+
+)
+
+[02-May-2019 13:38:05 UTC] postできてます
+[02-May-2019 13:38:05 UTC] post内容Array
+(
+    [delete] => 削除!
+)
+
+[02-May-2019 13:38:05 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:38:05 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:38:05 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:38:05 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:05 UTC] execute:1
+[02-May-2019 13:38:05 UTC] クエリ成功
+[02-May-2019 13:38:05 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 136
+)
+
+[02-May-2019 13:38:05 UTC] ユーザーID:136
+[02-May-2019 13:38:05 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:38:05 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:38:05 UTC] 流し込みデータ:Array
+(
+    [:id] => 136
+)
+
+[02-May-2019 13:38:05 UTC] execute:1
+[02-May-2019 13:38:05 UTC] クエリ成功
+[02-May-2019 13:38:05 UTC] DBから削除に成功しました
+[02-May-2019 13:38:05 UTC] DBの処理に成功しました
+[02-May-2019 13:38:07 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:07 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:07 UTC] execute:1
+[02-May-2019 13:38:07 UTC] クエリ成功
+[02-May-2019 13:38:07 UTC] フェッチ失敗
+[02-May-2019 13:38:07 UTC] タスクデータ:
+[02-May-2019 13:38:07 UTC] postできてます
+[02-May-2019 13:38:07 UTC] post内容Array
+(
+    [delete] => 削除!
+)
+
+[02-May-2019 13:38:07 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:38:07 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:38:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:38:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:07 UTC] execute:1
+[02-May-2019 13:38:07 UTC] クエリ成功
+[02-May-2019 13:38:07 UTC] DBの処理に成功しました
+[02-May-2019 13:38:08 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:08 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:08 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:08 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:08 UTC] execute:1
+[02-May-2019 13:38:08 UTC] クエリ成功
+[02-May-2019 13:38:08 UTC] フェッチ失敗
+[02-May-2019 13:38:08 UTC] タスクデータ:
+[02-May-2019 13:38:08 UTC] グローバル:
+[02-May-2019 13:38:58 UTC] DBからタスク情報を取得します
+[02-May-2019 13:38:58 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:38:58 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:38:58 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:38:58 UTC] execute:1
+[02-May-2019 13:38:58 UTC] クエリ成功
+[02-May-2019 13:38:58 UTC] フェッチ失敗
+[02-May-2019 13:38:58 UTC] タスクデータ:
+[02-May-2019 13:38:58 UTC] postできてます
+[02-May-2019 13:38:58 UTC] post内容Array
+(
+    [task] => ehewhetwhewh
+)
+
+[02-May-2019 13:38:58 UTC] タスクの送信があります
+[02-May-2019 13:38:58 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:38:58 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:38:58 UTC] 流し込みデータ:Array
+(
+    [:comment] => ehewhetwhewh
+    [:create_date] => 2019-05-02 13:38:58
+)
+
+[02-May-2019 13:38:58 UTC] execute:1
+[02-May-2019 13:38:58 UTC] クエリ成功
+[02-May-2019 13:38:58 UTC] DBの処理に成功しました
+[02-May-2019 13:39:00 UTC] DBからタスク情報を取得します
+[02-May-2019 13:39:00 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:39:00 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:39:00 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:39:00 UTC] execute:1
+[02-May-2019 13:39:00 UTC] クエリ成功
+[02-May-2019 13:39:00 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+)
+
+[02-May-2019 13:39:00 UTC] postできてます
+[02-May-2019 13:39:00 UTC] post内容Array
+(
+    [task] => adfsgbsgnsdn
+)
+
+[02-May-2019 13:39:00 UTC] タスクの送信があります
+[02-May-2019 13:39:00 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:39:00 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:39:00 UTC] 流し込みデータ:Array
+(
+    [:comment] => adfsgbsgnsdn
+    [:create_date] => 2019-05-02 13:39:00
+)
+
+[02-May-2019 13:39:00 UTC] execute:1
+[02-May-2019 13:39:00 UTC] クエリ成功
+[02-May-2019 13:39:00 UTC] DBの処理に成功しました
+[02-May-2019 13:39:02 UTC] DBからタスク情報を取得します
+[02-May-2019 13:39:02 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:39:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:39:02 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:39:02 UTC] execute:1
+[02-May-2019 13:39:02 UTC] クエリ成功
+[02-May-2019 13:39:02 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+)
+
+[02-May-2019 13:39:02 UTC] postできてます
+[02-May-2019 13:39:02 UTC] post内容Array
+(
+    [task] => dgbhsdn
+)
+
+[02-May-2019 13:39:02 UTC] タスクの送信があります
+[02-May-2019 13:39:02 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:39:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:39:02 UTC] 流し込みデータ:Array
+(
+    [:comment] => dgbhsdn
+    [:create_date] => 2019-05-02 13:39:02
+)
+
+[02-May-2019 13:39:02 UTC] execute:1
+[02-May-2019 13:39:02 UTC] クエリ成功
+[02-May-2019 13:39:02 UTC] DBの処理に成功しました
+[02-May-2019 13:39:10 UTC] DBからタスク情報を取得します
+[02-May-2019 13:39:10 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:39:10 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:39:10 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:39:10 UTC] execute:1
+[02-May-2019 13:39:10 UTC] クエリ成功
+[02-May-2019 13:39:10 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:39:10 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:39:17 UTC] DBからタスク情報を取得します
+[02-May-2019 13:39:17 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:39:17 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:39:17 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:39:17 UTC] execute:1
+[02-May-2019 13:39:17 UTC] クエリ成功
+[02-May-2019 13:39:17 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:39:17 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:43:21 UTC] DBからタスク情報を取得します
+[02-May-2019 13:43:21 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:43:21 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:43:21 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:43:21 UTC] execute:1
+[02-May-2019 13:43:21 UTC] クエリ成功
+[02-May-2019 13:43:21 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:43:21 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:47 UTC] DBからタスク情報を取得します
+[02-May-2019 13:44:47 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:44:47 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:44:47 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:44:47 UTC] execute:1
+[02-May-2019 13:44:47 UTC] クエリ成功
+[02-May-2019 13:44:47 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:47 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:51 UTC] DBからタスク情報を取得します
+[02-May-2019 13:44:51 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:44:51 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:44:51 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:44:51 UTC] execute:1
+[02-May-2019 13:44:51 UTC] クエリ成功
+[02-May-2019 13:44:51 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:51 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:54 UTC] DBからタスク情報を取得します
+[02-May-2019 13:44:54 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:44:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:44:54 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:44:54 UTC] execute:1
+[02-May-2019 13:44:54 UTC] クエリ成功
+[02-May-2019 13:44:54 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:44:54 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:07 UTC] DBからタスク情報を取得します
+[02-May-2019 13:46:07 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:46:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:46:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:46:07 UTC] execute:1
+[02-May-2019 13:46:07 UTC] クエリ成功
+[02-May-2019 13:46:07 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:07 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:19 UTC] DBからタスク情報を取得します
+[02-May-2019 13:46:19 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:46:19 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:46:19 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:46:19 UTC] execute:1
+[02-May-2019 13:46:19 UTC] クエリ成功
+[02-May-2019 13:46:19 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:19 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:32 UTC] DBからタスク情報を取得します
+[02-May-2019 13:46:32 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:46:32 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:46:32 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:46:32 UTC] execute:1
+[02-May-2019 13:46:32 UTC] クエリ成功
+[02-May-2019 13:46:32 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:32 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:51 UTC] DBからタスク情報を取得します
+[02-May-2019 13:46:51 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:46:51 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:46:51 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:46:51 UTC] execute:1
+[02-May-2019 13:46:51 UTC] クエリ成功
+[02-May-2019 13:46:51 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:46:51 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:47:07 UTC] DBからタスク情報を取得します
+[02-May-2019 13:47:07 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:47:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:47:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:47:07 UTC] execute:1
+[02-May-2019 13:47:07 UTC] クエリ成功
+[02-May-2019 13:47:07 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:47:07 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:47:44 UTC] DBからタスク情報を取得します
+[02-May-2019 13:47:44 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:47:44 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:47:44 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:47:44 UTC] execute:1
+[02-May-2019 13:47:44 UTC] クエリ成功
+[02-May-2019 13:47:44 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:47:44 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:51:56 UTC] DBからタスク情報を取得します
+[02-May-2019 13:51:56 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:51:56 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:51:56 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:51:56 UTC] execute:1
+[02-May-2019 13:51:56 UTC] クエリ成功
+[02-May-2019 13:51:56 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:51:56 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:52:04 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:04 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:04 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:04 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:04 UTC] execute:1
+[02-May-2019 13:52:04 UTC] クエリ成功
+[02-May-2019 13:52:04 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+)
+
+[02-May-2019 13:52:04 UTC] postできてます
+[02-May-2019 13:52:04 UTC] post内容Array
+(
+    [task] => eirbva;v
+)
+
+[02-May-2019 13:52:04 UTC] タスクの送信があります
+[02-May-2019 13:52:04 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:52:04 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:52:04 UTC] 流し込みデータ:Array
+(
+    [:comment] => eirbva;v
+    [:create_date] => 2019-05-02 13:52:04
+)
+
+[02-May-2019 13:52:04 UTC] execute:1
+[02-May-2019 13:52:04 UTC] クエリ成功
+[02-May-2019 13:52:04 UTC] DBの処理に成功しました
+[02-May-2019 13:52:07 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:07 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:07 UTC] execute:1
+[02-May-2019 13:52:07 UTC] クエリ成功
+[02-May-2019 13:52:07 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 137
+            [comment] => ehewhetwhewh
+            [create_date] => 2019-05-02 13:38:58
+            [update_date] => 2019-05-02 22:38:58
+        )
+
+    [1] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [2] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+    [3] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+)
+
+[02-May-2019 13:52:07 UTC] postできてます
+[02-May-2019 13:52:07 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:52:07 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:52:07 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:52:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:52:07 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:07 UTC] execute:1
+[02-May-2019 13:52:07 UTC] クエリ成功
+[02-May-2019 13:52:07 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 137
+)
+
+[02-May-2019 13:52:07 UTC] ユーザーID:137
+[02-May-2019 13:52:07 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:52:07 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:52:07 UTC] 流し込みデータ:Array
+(
+    [:id] => 137
+)
+
+[02-May-2019 13:52:07 UTC] execute:1
+[02-May-2019 13:52:07 UTC] クエリ成功
+[02-May-2019 13:52:07 UTC] DBから削除に成功しました
+[02-May-2019 13:52:07 UTC] DBの処理に成功しました
+[02-May-2019 13:52:09 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:09 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:09 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:09 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:09 UTC] execute:1
+[02-May-2019 13:52:09 UTC] クエリ成功
+[02-May-2019 13:52:09 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 138
+            [comment] => adfsgbsgnsdn
+            [create_date] => 2019-05-02 13:39:00
+            [update_date] => 2019-05-02 22:39:00
+        )
+
+    [1] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+    [2] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+)
+
+[02-May-2019 13:52:09 UTC] postできてます
+[02-May-2019 13:52:09 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:52:09 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:52:09 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:52:09 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:52:09 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:09 UTC] execute:1
+[02-May-2019 13:52:09 UTC] クエリ成功
+[02-May-2019 13:52:09 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 138
+)
+
+[02-May-2019 13:52:09 UTC] ユーザーID:138
+[02-May-2019 13:52:09 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:52:09 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:52:09 UTC] 流し込みデータ:Array
+(
+    [:id] => 138
+)
+
+[02-May-2019 13:52:09 UTC] execute:1
+[02-May-2019 13:52:09 UTC] クエリ成功
+[02-May-2019 13:52:09 UTC] DBから削除に成功しました
+[02-May-2019 13:52:09 UTC] DBの処理に成功しました
+[02-May-2019 13:52:12 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:12 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:12 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:12 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:12 UTC] execute:1
+[02-May-2019 13:52:12 UTC] クエリ成功
+[02-May-2019 13:52:12 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+    [1] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+)
+
+[02-May-2019 13:52:12 UTC] postできてます
+[02-May-2019 13:52:12 UTC] post内容Array
+(
+    [task] => fwqfqwf
+)
+
+[02-May-2019 13:52:12 UTC] タスクの送信があります
+[02-May-2019 13:52:12 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:52:12 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:52:12 UTC] 流し込みデータ:Array
+(
+    [:comment] => fwqfqwf
+    [:create_date] => 2019-05-02 13:52:12
+)
+
+[02-May-2019 13:52:12 UTC] execute:1
+[02-May-2019 13:52:12 UTC] クエリ成功
+[02-May-2019 13:52:12 UTC] DBの処理に成功しました
+[02-May-2019 13:52:14 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:14 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:14 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:14 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:14 UTC] execute:1
+[02-May-2019 13:52:14 UTC] クエリ成功
+[02-May-2019 13:52:14 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 139
+            [comment] => dgbhsdn
+            [create_date] => 2019-05-02 13:39:02
+            [update_date] => 2019-05-02 22:39:02
+        )
+
+    [1] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+    [2] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+)
+
+[02-May-2019 13:52:14 UTC] postできてます
+[02-May-2019 13:52:14 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:52:14 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:52:14 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:52:14 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:52:14 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:14 UTC] execute:1
+[02-May-2019 13:52:14 UTC] クエリ成功
+[02-May-2019 13:52:14 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 139
+)
+
+[02-May-2019 13:52:14 UTC] ユーザーID:139
+[02-May-2019 13:52:14 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:52:14 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:52:14 UTC] 流し込みデータ:Array
+(
+    [:id] => 139
+)
+
+[02-May-2019 13:52:14 UTC] execute:1
+[02-May-2019 13:52:14 UTC] クエリ成功
+[02-May-2019 13:52:14 UTC] DBから削除に成功しました
+[02-May-2019 13:52:14 UTC] DBの処理に成功しました
+[02-May-2019 13:52:16 UTC] DBからタスク情報を取得します
+[02-May-2019 13:52:16 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:52:16 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:52:16 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:52:16 UTC] execute:1
+[02-May-2019 13:52:16 UTC] クエリ成功
+[02-May-2019 13:52:16 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+    [1] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+)
+
+[02-May-2019 13:52:16 UTC] postできてます
+[02-May-2019 13:52:16 UTC] post内容Array
+(
+    [task] => fqwerfr
+)
+
+[02-May-2019 13:52:16 UTC] タスクの送信があります
+[02-May-2019 13:52:16 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:52:16 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:52:16 UTC] 流し込みデータ:Array
+(
+    [:comment] => fqwerfr
+    [:create_date] => 2019-05-02 13:52:16
+)
+
+[02-May-2019 13:52:16 UTC] execute:1
+[02-May-2019 13:52:16 UTC] クエリ成功
+[02-May-2019 13:52:16 UTC] DBの処理に成功しました
+[02-May-2019 13:54:29 UTC] DBからタスク情報を取得します
+[02-May-2019 13:54:29 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:54:29 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:54:29 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:54:29 UTC] execute:1
+[02-May-2019 13:54:29 UTC] クエリ成功
+[02-May-2019 13:54:29 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+    [1] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [2] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+)
+
+[02-May-2019 13:54:29 UTC] postできてます
+[02-May-2019 13:54:29 UTC] post内容Array
+(
+    [task] => jerjjjrtu
+)
+
+[02-May-2019 13:54:29 UTC] タスクの送信があります
+[02-May-2019 13:54:29 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:54:29 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:54:29 UTC] 流し込みデータ:Array
+(
+    [:comment] => jerjjjrtu
+    [:create_date] => 2019-05-02 13:54:29
+)
+
+[02-May-2019 13:54:30 UTC] execute:1
+[02-May-2019 13:54:30 UTC] クエリ成功
+[02-May-2019 13:54:30 UTC] DBの処理に成功しました
+[02-May-2019 13:54:54 UTC] DBからタスク情報を取得します
+[02-May-2019 13:54:54 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:54:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:54:54 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:54:54 UTC] execute:1
+[02-May-2019 13:54:54 UTC] クエリ成功
+[02-May-2019 13:54:54 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+    [1] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [2] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [3] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+)
+
+[02-May-2019 13:54:54 UTC] postできてます
+[02-May-2019 13:54:54 UTC] post内容Array
+(
+    [task] => 歯医者
+)
+
+[02-May-2019 13:54:54 UTC] タスクの送信があります
+[02-May-2019 13:54:54 UTC] ここで使うsql:INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+[02-May-2019 13:54:54 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => INSERT INTO users(comment, create_date) VALUES(:comment, :create_date)
+)
+
+[02-May-2019 13:54:54 UTC] 流し込みデータ:Array
+(
+    [:comment] => 歯医者
+    [:create_date] => 2019-05-02 13:54:54
+)
+
+[02-May-2019 13:54:54 UTC] execute:1
+[02-May-2019 13:54:54 UTC] クエリ成功
+[02-May-2019 13:54:54 UTC] DBの処理に成功しました
+[02-May-2019 13:55:01 UTC] DBからタスク情報を取得します
+[02-May-2019 13:55:01 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:55:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:55:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:01 UTC] execute:1
+[02-May-2019 13:55:01 UTC] クエリ成功
+[02-May-2019 13:55:01 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 140
+            [comment] => eirbva;v
+            [create_date] => 2019-05-02 13:52:04
+            [update_date] => 2019-05-02 22:52:04
+        )
+
+    [1] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [2] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [3] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [4] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:01 UTC] postできてます
+[02-May-2019 13:55:01 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 13:55:01 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 13:55:01 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:55:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:55:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:01 UTC] execute:1
+[02-May-2019 13:55:01 UTC] クエリ成功
+[02-May-2019 13:55:01 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 140
+)
+
+[02-May-2019 13:55:01 UTC] ユーザーID:140
+[02-May-2019 13:55:01 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 13:55:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 13:55:01 UTC] 流し込みデータ:Array
+(
+    [:id] => 140
+)
+
+[02-May-2019 13:55:01 UTC] execute:1
+[02-May-2019 13:55:01 UTC] クエリ成功
+[02-May-2019 13:55:01 UTC] DBから削除に成功しました
+[02-May-2019 13:55:01 UTC] DBの処理に成功しました
+[02-May-2019 13:55:03 UTC] DBからタスク情報を取得します
+[02-May-2019 13:55:03 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:55:03 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:55:03 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:03 UTC] execute:1
+[02-May-2019 13:55:03 UTC] クエリ成功
+[02-May-2019 13:55:03 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:03 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:25 UTC] DBからタスク情報を取得します
+[02-May-2019 13:55:25 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:55:25 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:55:25 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:25 UTC] execute:1
+[02-May-2019 13:55:25 UTC] クエリ成功
+[02-May-2019 13:55:25 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:25 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:36 UTC] DBからタスク情報を取得します
+[02-May-2019 13:55:36 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:55:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:55:36 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:36 UTC] execute:1
+[02-May-2019 13:55:36 UTC] クエリ成功
+[02-May-2019 13:55:36 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => fwqfqwf
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:36 UTC] postできてます
+[02-May-2019 13:55:36 UTC] post内容Array
+(
+    [edit] => うんち
+)
+
+[02-May-2019 13:55:36 UTC] タスクの編集があります
+[02-May-2019 13:55:36 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 13:55:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 13:55:36 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:36 UTC] execute:1
+[02-May-2019 13:55:36 UTC] クエリ成功
+[02-May-2019 13:55:36 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 141
+)
+
+[02-May-2019 13:55:36 UTC] ユーザーID:141
+[02-May-2019 13:55:36 UTC] ここで使うsql:UPDATE users SET comment = :comment WHERE user_id = :id
+[02-May-2019 13:55:36 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => UPDATE users SET comment = :comment WHERE user_id = :id
+)
+
+[02-May-2019 13:55:36 UTC] 流し込みデータ:Array
+(
+    [:comment] => うんち
+    [:id] => 141
+)
+
+[02-May-2019 13:55:36 UTC] execute:1
+[02-May-2019 13:55:36 UTC] クエリ成功
+[02-May-2019 13:55:36 UTC] タスクの編集が完了しました
+[02-May-2019 13:55:36 UTC] DBの処理に成功しました
+[02-May-2019 13:55:45 UTC] DBからタスク情報を取得します
+[02-May-2019 13:55:45 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 13:55:45 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 13:55:45 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 13:55:45 UTC] execute:1
+[02-May-2019 13:55:45 UTC] クエリ成功
+[02-May-2019 13:55:45 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => うんち
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 13:55:45 UTC] グローバル:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => うんち
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 14:03:59 UTC] DBからタスク情報を取得します
+[02-May-2019 14:03:59 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 14:03:59 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 14:03:59 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:03:59 UTC] execute:1
+[02-May-2019 14:03:59 UTC] クエリ成功
+[02-May-2019 14:03:59 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 141
+            [comment] => うんち
+            [create_date] => 2019-05-02 13:52:12
+            [update_date] => 2019-05-02 22:52:12
+        )
+
+    [1] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [2] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [3] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 14:03:59 UTC] postできてます
+[02-May-2019 14:03:59 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 14:03:59 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 14:03:59 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 14:03:59 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 14:03:59 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:03:59 UTC] execute:1
+[02-May-2019 14:03:59 UTC] クエリ成功
+[02-May-2019 14:03:59 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 141
+)
+
+[02-May-2019 14:03:59 UTC] ユーザーID:141
+[02-May-2019 14:03:59 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 14:03:59 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 14:03:59 UTC] 流し込みデータ:Array
+(
+    [:id] => 141
+)
+
+[02-May-2019 14:03:59 UTC] execute:1
+[02-May-2019 14:03:59 UTC] クエリ成功
+[02-May-2019 14:03:59 UTC] DBから削除に成功しました
+[02-May-2019 14:03:59 UTC] DBの処理に成功しました
+[02-May-2019 14:04:00 UTC] DBからタスク情報を取得します
+[02-May-2019 14:04:00 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 14:04:00 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 14:04:00 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:00 UTC] execute:1
+[02-May-2019 14:04:00 UTC] クエリ成功
+[02-May-2019 14:04:00 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 142
+            [comment] => fqwerfr
+            [create_date] => 2019-05-02 13:52:16
+            [update_date] => 2019-05-02 22:52:16
+        )
+
+    [1] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [2] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 14:04:00 UTC] postできてます
+[02-May-2019 14:04:00 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 14:04:00 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 14:04:00 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 14:04:00 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 14:04:00 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:00 UTC] execute:1
+[02-May-2019 14:04:00 UTC] クエリ成功
+[02-May-2019 14:04:00 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 142
+)
+
+[02-May-2019 14:04:00 UTC] ユーザーID:142
+[02-May-2019 14:04:00 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 14:04:00 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 14:04:00 UTC] 流し込みデータ:Array
+(
+    [:id] => 142
+)
+
+[02-May-2019 14:04:00 UTC] execute:1
+[02-May-2019 14:04:00 UTC] クエリ成功
+[02-May-2019 14:04:00 UTC] DBから削除に成功しました
+[02-May-2019 14:04:00 UTC] DBの処理に成功しました
+[02-May-2019 14:04:01 UTC] DBからタスク情報を取得します
+[02-May-2019 14:04:01 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 14:04:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 14:04:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:01 UTC] execute:1
+[02-May-2019 14:04:01 UTC] クエリ成功
+[02-May-2019 14:04:01 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 143
+            [comment] => jerjjjrtu
+            [create_date] => 2019-05-02 13:54:29
+            [update_date] => 2019-05-02 22:54:29
+        )
+
+    [1] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 14:04:01 UTC] postできてます
+[02-May-2019 14:04:01 UTC] post内容Array
+(
+    [delete] => 
+)
+
+[02-May-2019 14:04:01 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 14:04:01 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 14:04:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 14:04:01 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:01 UTC] execute:1
+[02-May-2019 14:04:01 UTC] クエリ成功
+[02-May-2019 14:04:01 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 143
+)
+
+[02-May-2019 14:04:01 UTC] ユーザーID:143
+[02-May-2019 14:04:01 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 14:04:01 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 14:04:01 UTC] 流し込みデータ:Array
+(
+    [:id] => 143
+)
+
+[02-May-2019 14:04:01 UTC] execute:1
+[02-May-2019 14:04:01 UTC] クエリ成功
+[02-May-2019 14:04:01 UTC] DBから削除に成功しました
+[02-May-2019 14:04:01 UTC] DBの処理に成功しました
+[02-May-2019 14:04:02 UTC] DBからタスク情報を取得します
+[02-May-2019 14:04:02 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 14:04:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 14:04:02 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:02 UTC] execute:1
+[02-May-2019 14:04:02 UTC] クエリ成功
+[02-May-2019 14:04:02 UTC] タスクデータ:Array
+(
+    [0] => Array
+        (
+            [user_id] => 144
+            [comment] => 歯医者
+            [create_date] => 2019-05-02 13:54:54
+            [update_date] => 2019-05-02 22:54:54
+        )
+
+)
+
+[02-May-2019 14:04:02 UTC] postできてます
+[02-May-2019 14:04:02 UTC] post内容Array
+(
+    [delete] => 削除!
+)
+
+[02-May-2019 14:04:02 UTC] ゴミ箱アイコンがクリックされました
+[02-May-2019 14:04:02 UTC] ここで使うsql:SELECT user_id FROM users
+[02-May-2019 14:04:02 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT user_id FROM users
+)
+
+[02-May-2019 14:04:02 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:03 UTC] execute:1
+[02-May-2019 14:04:03 UTC] クエリ成功
+[02-May-2019 14:04:03 UTC] フェッチ成功,その結果:Array
+(
+    [user_id] => 144
+)
+
+[02-May-2019 14:04:03 UTC] ユーザーID:144
+[02-May-2019 14:04:03 UTC] ここで使うsql:DELETE FROM users WHERE user_id = :id 
+[02-May-2019 14:04:03 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => DELETE FROM users WHERE user_id = :id 
+)
+
+[02-May-2019 14:04:03 UTC] 流し込みデータ:Array
+(
+    [:id] => 144
+)
+
+[02-May-2019 14:04:03 UTC] execute:1
+[02-May-2019 14:04:03 UTC] クエリ成功
+[02-May-2019 14:04:03 UTC] DBから削除に成功しました
+[02-May-2019 14:04:03 UTC] DBの処理に成功しました
+[02-May-2019 14:04:05 UTC] DBからタスク情報を取得します
+[02-May-2019 14:04:05 UTC] ここで使うsql:SELECT * FROM users
+[02-May-2019 14:04:05 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[02-May-2019 14:04:05 UTC] 流し込みデータ:Array
+(
+)
+
+[02-May-2019 14:04:05 UTC] execute:1
+[02-May-2019 14:04:05 UTC] クエリ成功
+[02-May-2019 14:04:05 UTC] フェッチ失敗
+[02-May-2019 14:04:05 UTC] タスクデータ:
+[02-May-2019 14:04:05 UTC] グローバル:
+[03-May-2019 11:54:27 UTC] DBからタスク情報を取得します
+[03-May-2019 11:54:28 UTC] ここで使うsql:SELECT * FROM users
+[03-May-2019 11:54:28 UTC] ステートメントPDOStatement Object
+(
+    [queryString] => SELECT * FROM users
+)
+
+[03-May-2019 11:54:28 UTC] 流し込みデータ:Array
+(
+)
+
+[03-May-2019 11:54:28 UTC] execute:1
+[03-May-2019 11:54:28 UTC] クエリ成功
+[03-May-2019 11:54:28 UTC] フェッチ失敗
+[03-May-2019 11:54:28 UTC] タスクデータ:
+[03-May-2019 11:54:28 UTC] グローバル:
